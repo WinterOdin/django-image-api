@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from .models import Pictures
 
+
 class PictureSerializer(serializers.ModelSerializer):
     image_large = serializers.ImageField(read_only=True)
     image_medium = serializers.ImageField(read_only=True)
