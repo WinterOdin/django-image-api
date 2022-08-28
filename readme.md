@@ -19,7 +19,7 @@ then pip install requirements
 ```
 pip install -r requirements
 ```
-Now you need to set your s3 bucket credentials, do it settings or use .env
+Now you need to set your s3 bucket credentials, use .env
 ```
 AWS_ACCESS_KEY_ID = ''
 AWS_SECRET_ACCESS_KEY = ''
